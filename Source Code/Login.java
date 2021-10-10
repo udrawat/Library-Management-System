@@ -6,7 +6,7 @@ import java.io.*;
 public class Login extends JFrame implements ItemListener , ActionListener 
 {
 
-	String system;
+	String system21;
 	String systempass;
 	Choice choice1;	
 	JLabel userid,password;
