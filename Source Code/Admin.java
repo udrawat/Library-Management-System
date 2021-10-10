@@ -22,7 +22,7 @@ public class Admin extends JFrame  implements ActionListener
 	TableModel tmodel4;
 	JTable jtable4;
 	TableRowSorter<TableModel> rsorter4;
-	String columns4[]={"Name","User ID","Password","Email ID","Address","CIty","Contact No"};
+	String columns4[]={"Name","User ID","Password","Email ID","Address","City","Contact No"};
 	JButton bt4,search4,refresh4,refresh5,logout,update;
 	JTextField searchtf4;
 	JPanel bookPanel4;
@@ -177,7 +177,7 @@ public class Admin extends JFrame  implements ActionListener
 
 		//View Librarian
 		JLabel h4=new JLabel("View Librarian");
-		Font font4=new Font("Britannic",Font.PLAIN,25);
+		Font font4=new Font("Cambria Math",Font.PLAIN,25);
 		h4.setFont(font4);
 		bookPanel4=new JPanel(new BorderLayout());
 		JPanel bu4=new JPanel();
@@ -211,7 +211,7 @@ public class Admin extends JFrame  implements ActionListener
 		//Delete Librarian
 		h3=new JLabel("Delete Librarian");
 		h3.setBounds(200,20,200,50);
-		Font font3= new Font("Britannic",Font.PLAIN,25);
+		Font font3= new Font("Cambria Math",Font.PLAIN,25);
 		h3.setFont(font3);
 		adminp3.add(h3);
 		adeleteid= new JLabel("Librarian Id :");
