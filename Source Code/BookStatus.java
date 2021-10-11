@@ -98,7 +98,7 @@ public class BookStatus extends JFrame
 		p.setLayout(null);
 		p.setBounds(0,0,300,400);
 		JLabel r= new JLabel("Book Status");
-		Font ft= new Font("Arial Rounded MT",Font.BOLD,15);
+		Font ft= new Font("Cambria Math",Font.BOLD,15);
 		r.setFont(ft);
 		r.setBounds(75,0,200,20);
 		p.add(r);
